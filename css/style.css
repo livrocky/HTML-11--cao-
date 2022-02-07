@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
 header {
   background-image: url(images/dark-blue.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: initial;
   padding: 180px 100px;
 }
@@ -35,10 +40,71 @@ button {
 
 .box-1 {
   width: 40%;
-  height: 350px;
-  padding: 120px 315px 100px 50px;
+  padding: 120px 350px 100px 50px;
   color: white;
   background-image: url(images/city.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.box-2 {
+  width: 60%;
+  padding: 120px 630px 100px 50px;
+  color: white;
+  background-image: url(images/forest.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.box-3 {
+  width: 60%;
+  padding: 120px 630px 100px 50px;
+  color: white;
+  background-image: url(images/ocean.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.box-4 {
+  width: 40%;
+  padding: 120px 350px 100px 50px;
+  color: white;
+  background-image: url(images/snow2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.box-5 {
+  width: 40%;
+  padding: 120px 350px 100px 50px;
+  color: white;
+  background-image: url(images/skate1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.box-6 {
+  width: 60%;
+  padding: 120px 630px 100px 50px;
+  color: white;
+  background-image: url(images/sky.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+footer {
+  background-color: #03111f;
+  color: white;
+  padding: 50px 100px;
+}
+
+.title-line {
+  padding-right: 1100px;
+}
+
+p {
+  margin-top: 20px;
 }
