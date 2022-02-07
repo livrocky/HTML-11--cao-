@@ -1,0 +1,44 @@
+header {
+  background-image: url(images/dark-blue.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: initial;
+  padding: 180px 100px;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+.subtitle {
+  width: 50%;
+}
+
+.full-subtitle {
+  display: inline-flex;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.main-containers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-1 {
+  width: 40%;
+  height: 350px;
+  padding: 120px 315px 100px 50px;
+  color: white;
+  background-image: url(images/city.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
